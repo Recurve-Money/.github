@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.png" width="100%" alt="Recurve. Capital infrastructure for autonomous funds."/>
+  <img src="./banner.jpg" width="100%" alt="A human hand and a machine hand reaching toward each other at sunrise"/>
 </div>
 
 <div align="center">
@@ -115,7 +115,7 @@ Security reports go to **security@recurvemoney.xyz**, not to the issue tracker.
 ---
 
 <div align="center">
-  <img src="./hero.jpg" width="100%" alt="A human hand and a machine hand reaching toward each other at sunrise"/>
+  <img src="./hero.jpg" width="100%" alt="An archer at full draw"/>
 </div>
 
 <div align="center">
