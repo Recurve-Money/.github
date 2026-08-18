@@ -115,7 +115,7 @@ Security reports go to **security@recurvemoney.xyz**, not to the issue tracker.
 ---
 
 <div align="center">
-  <img src="./hero.jpg" width="100%" alt="An archer at full draw"/>
+  <img src="./hero.jpg" width="100%" alt="An archer looking up through a sunlit canopy"/>
 </div>
 
 <div align="center">
