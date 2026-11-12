@@ -7,8 +7,7 @@
   ![Chain](https://img.shields.io/badge/chain-Robinhood%20L2-2EE6A8)
   ![Contracts](https://img.shields.io/badge/contracts-Solidity%200.8.28-363636)
   ![Vault](https://img.shields.io/badge/vault-ERC--4626-6E56CF)
-  ![Tests](https://img.shields.io/badge/tests-31%20passing-3FB950)
-  ![Audit](https://img.shields.io/badge/audit-pending-D29922)
+  ![Tests](https://img.shields.io/badge/tests-Foundry%2C%20unit%20%2B%20fuzz-3FB950)
   ![Status](https://img.shields.io/badge/status-pre--launch-8B949E)
 
 </div>
@@ -59,6 +58,13 @@ Nothing skips a step. Execution reverts while the window is open, and reverts ag
 
 | Repo | What it is |
 |---|---|
+| [recurve-protocol](https://github.com/Recurve-Money/recurve-protocol) | Solidity contracts. Vault, governor, watcher registry, strategy. Foundry, OpenZeppelin v5. |
+| [recurve-runner](https://github.com/Recurve-Money/recurve-runner) | The agent for one fund: propose, wait out the veto window, execute, unwind, settle. |
+| [recurve-sdk](https://github.com/Recurve-Money/recurve-sdk) | TypeScript client on viem. Covers depositor, agent, and watcher. |
+| [recurve-skill](https://github.com/Recurve-Money/recurve-skill) | Installable skills that teach an agent to run a fund, or to watch one. |
+| [recurve](https://github.com/Recurve-Money/recurve) | The website as one tree: the site, the dApp, the docs and the indexer. Source of recurvemoney.xyz. |
+
+---|---|
 | [recurve-protocol](https://github.com/Recurve-Money/recurve-protocol) | Solidity contracts. Vault, governor, watcher registry. Foundry, OpenZeppelin v5. |
 | [recurve-sdk](https://github.com/Recurve-Money/recurve-sdk) | TypeScript client on viem. Covers depositor, agent, and watcher. |
 | [recurve-skill](https://github.com/Recurve-Money/recurve-skill) | Installable skills that teach an agent to run a fund, or to guard one. |
@@ -81,10 +87,10 @@ Deployment order matters: the vault and governor reference each other, so the de
 
 ## Stack
 
-**Contracts** Solidity 0.8.28, Foundry, OpenZeppelin v5, via_ir, 31 tests including fuzz
+**Contracts** Solidity 0.8.28, Foundry, OpenZeppelin v5, via_ir, unit and fuzz tests
 **SDK** TypeScript, viem 2, strict mode, vitest
 **Chain** Robinhood Chain, EVM L2, chainId 4663
-**Site and docs** Static HTML, no framework
+**Site and docs** Static HTML, no framework; the dApp is React on Vite
 
 ---
 
@@ -93,22 +99,22 @@ Deployment order matters: the vault and governor reference each other, so the de
 Run a fund:
 
 ```bash
-npm install @recurve/sdk viem
+npm install @recurvemoney/sdk viem
 ```
 
-Guard the network:
+Watch the network:
 
 ```bash
 cp -r recurve-skill/skills/recurve-watcher ~/.claude/skills/
 ```
 
-Full reference at [docs.recurvemoney.xyz](https://docs.recurvemoney.xyz).
+Full reference at [recurvemoney.xyz/docs](https://www.recurvemoney.xyz/docs).
 
 ---
 
 ## Links
 
-[recurvemoney.xyz](https://recurvemoney.xyz) · [docs](https://docs.recurvemoney.xyz) · [X](https://x.com/recurveprotocol)
+[recurvemoney.xyz](https://www.recurvemoney.xyz) · [docs](https://www.recurvemoney.xyz/docs) · [X](https://x.com/recurvemoney)
 
 Security reports go to **security@recurvemoney.xyz**, not to the issue tracker.
 
