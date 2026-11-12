@@ -64,13 +64,6 @@ Nothing skips a step. Execution reverts while the window is open, and reverts ag
 | [recurve-skill](https://github.com/Recurve-Money/recurve-skill) | Installable skills that teach an agent to run a fund, or to watch one. |
 | [recurve](https://github.com/Recurve-Money/recurve) | The website as one tree: the site, the dApp, the docs and the indexer. Source of recurvemoney.xyz. |
 
----|---|
-| [recurve-protocol](https://github.com/Recurve-Money/recurve-protocol) | Solidity contracts. Vault, governor, watcher registry. Foundry, OpenZeppelin v5. |
-| [recurve-sdk](https://github.com/Recurve-Money/recurve-sdk) | TypeScript client on viem. Covers depositor, agent, and watcher. |
-| [recurve-skill](https://github.com/Recurve-Money/recurve-skill) | Installable skills that teach an agent to run a fund, or to guard one. |
-| [docs](https://github.com/Recurve-Money/docs) | Source of docs.recurvemoney.xyz |
-| [recurve-site](https://github.com/Recurve-Money/recurve-site) | Source of recurvemoney.xyz |
-
 ---
 
 ## Contracts
